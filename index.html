@@ -26,6 +26,12 @@
       })();
 
     </script>
+    <script type="text/javascript">
+    	function showErratum(erratumName) {
+    		var erratum = document.getElementById(erratumName);
+    		erratum.classList.toggle("show");
+		}
+    </script>
     <title>Philipp Harms</title>
   </head>
   <body>
@@ -233,6 +239,10 @@
         <br/>
         <a itemprop="publisher" class="concealed" href="http://dx.doi.org/10.3934/jgm.2011.3.389">Journal of Geometric Mechanics 3, 4 (2011), pp. 389-438</a>.
         <a class="concealed" href="http://arxiv.org/abs/1009.3616">arXiv:1009.3616</a>.
+        <br/>
+        <a class="erratum" onclick="showErratum('erratumSobolev2011')">Erratum.
+  			<span class="erratumText" id="erratumSobolev2011">A gap in Section 6.6 was discovered and corrected by Olaf M&uuml;ller in his paper "Applying the index theorem to non-smooth operators." Journal of Geometry and Physics 116 (2017): 140-145. </span>
+		</a>
     </li>
 
     <li itemscope itemtype="http://schema.org/ScholarlyArticle">
@@ -320,7 +330,7 @@
     <br/>
     <a href="http://www.stochastik.uni-freiburg.de/professoren/philipp-harms">www.stochastik.uni-freiburg.de/professoren/philipp-harms</a>
     <br/>
-    Last updated in February 2017 by Philipp Harms.
+    Last updated in March 2017 by Philipp Harms.
 </p>
 
       </section>
